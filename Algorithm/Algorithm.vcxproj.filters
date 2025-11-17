@@ -52,45 +52,6 @@
     <Filter Include="2.BOJ">
       <UniqueIdentifier>{169d4fcd-de5b-47ba-9e6e-3e00101c63cb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="2.BOJ\First">
-      <UniqueIdentifier>{b642960b-bd5f-4a11-b427-3231a640db9a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\Default">
-      <UniqueIdentifier>{490d3d0a-7ebc-4876-ad4e-90048992a4de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\%28구현%29시뮬레이션">
-      <UniqueIdentifier>{c5384334-9752-4964-9936-25d4a5976cc3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\%28구현%29시뮬레이션\감시">
-      <UniqueIdentifier>{35f5c74f-419f-4061-a553-55aa56f83dfc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\%28구현%29시뮬레이션\스티커붙이기">
-      <UniqueIdentifier>{258a73be-7c03-4f29-b6ee-81c99cbcfc0a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\%28구현%29시뮬레이션\silver">
-      <UniqueIdentifier>{ae3a09b5-d448-475b-bb2f-0be2d48ef4b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\%28구현%29시뮬레이션\gold">
-      <UniqueIdentifier>{e8af4124-b7c7-41b2-af25-02bcba5c87d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\class3">
-      <UniqueIdentifier>{227d20e9-3854-41b9-a93b-b3c311d76957}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\class4">
-      <UniqueIdentifier>{fd38da82-bee4-4a03-8311-ef28628ee7d7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\class5">
-      <UniqueIdentifier>{0debd5d7-1513-4cc7-8df1-34271a980de6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\백트래킹">
-      <UniqueIdentifier>{baeb0890-5288-4cc7-a46d-162f5ca39f57}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\First\SamsungS/W">
-      <UniqueIdentifier>{49602774-efe7-4092-962c-2dc31a82e35a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2.BOJ\Retry">
-      <UniqueIdentifier>{5bca32fe-d73f-4c35-af2a-3e1e30259558}</UniqueIdentifier>
-    </Filter>
     <Filter Include="1.study\DataStructure\ArrayGraph%28C%29">
       <UniqueIdentifier>{15257916-f67f-4a8d-8c5a-97a3a8fbb683}</UniqueIdentifier>
     </Filter>
@@ -99,6 +60,39 @@
     </Filter>
     <Filter Include="1.study\DataStructure\MySort">
       <UniqueIdentifier>{6975cf37-a696-4de5-834a-e9f7e10425cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\98.Backtracking">
+      <UniqueIdentifier>{baeb0890-5288-4cc7-a46d-162f5ca39f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\1.Solved_ac">
+      <UniqueIdentifier>{5100389d-6741-48c1-8a77-86c28f539937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\1.Solved_ac\class3">
+      <UniqueIdentifier>{227d20e9-3854-41b9-a93b-b3c311d76957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\1.Solved_ac\class4">
+      <UniqueIdentifier>{fd38da82-bee4-4a03-8311-ef28628ee7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\1.Solved_ac\class5">
+      <UniqueIdentifier>{0debd5d7-1513-4cc7-8df1-34271a980de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\2.SamsungS/W">
+      <UniqueIdentifier>{49602774-efe7-4092-962c-2dc31a82e35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\96.Etc">
+      <UniqueIdentifier>{490d3d0a-7ebc-4876-ad4e-90048992a4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\97.Implementation">
+      <UniqueIdentifier>{c5384334-9752-4964-9936-25d4a5976cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\97.Implementation\silver">
+      <UniqueIdentifier>{ae3a09b5-d448-475b-bb2f-0be2d48ef4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\97.Implementation\gold">
+      <UniqueIdentifier>{e8af4124-b7c7-41b2-af25-02bcba5c87d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\98.Backtracking\99.Retry">
+      <UniqueIdentifier>{5bca32fe-d73f-4c35-af2a-3e1e30259558}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -244,397 +238,385 @@
       <Filter>1.study\Algorithm\투포인터</Filter>
     </ClCompile>
     <ClCompile Include="N과M(백트래킹).cpp">
-      <Filter>2.BOJ\First\백트래킹</Filter>
+      <Filter>2.BOJ\98.Backtracking</Filter>
     </ClCompile>
     <ClCompile Include="N-Queen(백트래킹).cpp">
-      <Filter>2.BOJ\First\백트래킹</Filter>
-    </ClCompile>
-    <ClCompile Include="감시(다시풀기).cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\감시</Filter>
-    </ClCompile>
-    <ClCompile Include="감시(진법사용풀이).cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\감시</Filter>
-    </ClCompile>
-    <ClCompile Include="감시.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\감시</Filter>
-    </ClCompile>
-    <ClCompile Include="스티커붙이기.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\스티커붙이기</Filter>
+      <Filter>2.BOJ\98.Backtracking</Filter>
     </ClCompile>
     <ClCompile Include="그룹단어체커.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\silver</Filter>
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
     <ClCompile Include="체스판다시칠하기.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\silver</Filter>
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
     <ClCompile Include="프린터큐.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\silver</Filter>
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
     <ClCompile Include="집합.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="N과M(2).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="N과M(4).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="N과M(5).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="가장긴증가하는부분수열.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="지름길(1446).cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\silver</Filter>
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
     <ClCompile Include="나는야포켓몬마스터이다솜.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="듣보잡(1764).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="트리의부모찾기.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="N과M(9).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="2048.cpp">
-      <Filter>2.BOJ\First\class5</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
     <ClCompile Include="최소비용구하기(1916).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="구간합구하기.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="다각형의합.cpp">
-      <Filter>2.BOJ\First\class5</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
     <ClCompile Include="동전0.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="1로만들기(1463).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="구간합구하기(4).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="2xn타일링(11726).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="ATM(11399).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="피보나치함수(1003).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="바이러스(2606).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="123더하기(9095).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="유기농배추.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="최소힙.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="색종이만들기.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="색종이만들기(가독성개선).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="RGB거리%282차원dp%29.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="곱셈.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="정수삼각형.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="쉬운최단경로.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="Ｚ.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="회의실배정.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="토마토.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="3차원토마토.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="테트로미노.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="트리의지름.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="비밀번호찾기(17219).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="비밀번호만들기%2817218%29최장증가공통수열.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="패션왕신혜빈.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="파도반수열.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="파도반수열(dp풀이).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="좌표압축.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="좌표압축(해시매핑방식).cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="2xn타일링2.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="숨바꼭질3.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="숨바꼭질.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="트리순회.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="잃어버린괄호.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="적록색약.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="스티커.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="평범한배낭%28좋은문제%29.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="FourSquares.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="랜선자르기.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="최대 힙.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="N과M(12).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="헌내기는친구가필요해.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="뱀과사다리게임.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="LCS.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="최단경로.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="플로이드.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="AB(16953).cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="파티.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="과일탕후루.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="케빈베이컨의6단계법칙.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="내려가기.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="치킨배달.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="단지번호붙이기.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="파이프옮기기1.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="거짓말.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="경로찾기.cpp">
-      <Filter>2.BOJ\First\class3</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
     <ClCompile Include="특정한최단경로%28일관2회%29.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="특정한최단경로%282~6회 + 조기탈출%29.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="369.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="AC.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="CD.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="dfs와bfs(1260).cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="Factorial.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="sp_fp스터디문제.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="가운데를말해요.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="계단오르기(2579).cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="공바꾸기.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="괄호.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="국영수.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="단어정렬.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="덱.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="두수의합%283273%29.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="미로탐색.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="빈도정렬.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="빈도정렬_try2.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="수들의합5.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="아이들과선물상자.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="연결요소의개수(유니온파인드풀이).cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="연결요소의개수.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="요세푸스.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="전자레인지.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="좋다.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="카드(11652).cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="카드.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="카드2.cpp">
-      <Filter>2.BOJ\First\Default</Filter>
+      <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
     <ClCompile Include="벨만포드.cpp">
       <Filter>1.study\Algorithm\최단경로</Filter>
     </ClCompile>
     <ClCompile Include="웜홀.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="벽부수고이동하기.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="N과M%282%29_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="N과M(5)_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="N과M(4)_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="1로만들기_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="ATM_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="바이러스_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="바이러스_re2.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="구간합구하기_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="2xn타일링_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="색종이만들기_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="나무자르기_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="연결요소의개수_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="좌표압축_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="숨바꼭질_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="쉬운최단경로_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="Z_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="구슬탈출2.cpp">
-      <Filter>2.BOJ\First\SamsungS/W</Filter>
+      <Filter>2.BOJ\2.SamsungS/W</Filter>
     </ClCompile>
     <ClCompile Include="트리의지름_백준.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="후위표기식.cpp">
-      <Filter>2.BOJ\First\class4</Filter>
+      <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
-    <ClCompile Include="트럭.cpp">
-      <Filter>2.BOJ\First\%28구현%29시뮬레이션\silver</Filter>
+    <ClCompile Include="트럭%2813335%29.cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
     <ClCompile Include="two_pointer%28slidewindow%29.cpp">
       <Filter>1.study\Algorithm\투포인터</Filter>
@@ -652,10 +634,22 @@
       <Filter>1.study\DataStructure</Filter>
     </ClCompile>
     <ClCompile Include="가장긴증가하는부분수열_re.cpp">
-      <Filter>2.BOJ\Retry</Filter>
+      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="perfectforward.cpp">
       <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="감시.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
+    <ClCompile Include="감시(다시풀기).cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
+    <ClCompile Include="감시(진법사용풀이).cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
+    <ClCompile Include="스티커붙이기.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
