@@ -657,6 +657,9 @@
     <ClCompile Include="연구소(14502).cpp">
       <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
+    <ClCompile Include="로봇청소기%2814503%29.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
