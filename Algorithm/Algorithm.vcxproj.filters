@@ -651,6 +651,9 @@
     <ClCompile Include="스티커붙이기.cpp">
       <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
+    <ClCompile Include="창고다각형(2304).cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
