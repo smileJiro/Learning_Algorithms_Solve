@@ -663,6 +663,9 @@
     <ClCompile Include="후보추천하기%281713%29.cpp">
       <Filter>2.BOJ\97.Implementation\silver</Filter>
     </ClCompile>
+    <ClCompile Include="오목(2615).cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
