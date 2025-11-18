@@ -660,6 +660,9 @@
     <ClCompile Include="로봇청소기%2814503%29.cpp">
       <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
+    <ClCompile Include="후보추천하기%281713%29.cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
