@@ -17,9 +17,9 @@ int main()
 
 
 	int l{ 0 }, r{ 0 };
-	int answer = INF; // 부분합 만족하면서 가장 작은 길이
+	int answer = INF;
 	int sum = arr[l];
-	while (l <= r)
+	while (l <= r)		// 길이가 1인 부분합 갱신 -> 조기 종료
 	{
 		if (S <= sum)
 		{
