@@ -687,6 +687,9 @@
     <ClCompile Include="스도쿠.cpp">
       <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
+    <ClCompile Include="팰린드롬%2810942%29.cpp">
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
