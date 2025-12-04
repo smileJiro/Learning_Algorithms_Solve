@@ -696,6 +696,9 @@
     <ClCompile Include="사이클게임%2820040%29.cpp">
       <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
+    <ClCompile Include="도시분할계획(1647).cpp">
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
