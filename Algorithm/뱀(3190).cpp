@@ -94,7 +94,8 @@ int main()
 
 		CheckDirectionQuery(query);
 	}
-
 	cout << playtime << '\n';
+
+
 	return 0;
 }
