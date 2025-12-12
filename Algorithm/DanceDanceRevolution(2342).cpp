@@ -43,7 +43,7 @@ int main()
 			}
 		}
 
-		// memcpy(dp, ndp, sizeof(dp)); -> 배열 특수화 -> SIMD 연산 최적화
+		memcpy(dp, ndp, sizeof(dp)); // -> 배열 특수화 -> SIMD 연산 최적화
 		// swap(dp, ndp); -> 원소 단위 스왑 -> 더 느려 -> RAW 배열이라 포인터가 아님
 		// -> 만약 vector 컨테이너 같은 컨테이너였으면? -> O(1) 이지 -> 내부 포인터만 교체
 	}
