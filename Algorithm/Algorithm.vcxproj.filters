@@ -741,6 +741,9 @@
     <ClCompile Include="인구이동(16234).cpp">
       <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
+    <ClCompile Include="색종이(2563).cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">

@@ -29,7 +29,7 @@ bool CanOpen(int y, int x)
 
 bool BFS(int r, int c)
 {
-	bool ret = false;
+	bool isOpened = false;
 
 	queue<P> q;
 	vector<P> updates;
@@ -55,7 +55,7 @@ bool BFS(int r, int c)
 			if (diff >= L && diff <= R)
 			{
 				// 국경 open
-				ret |= true;
+				isOpened = true;
 				q.emplace(ny, nx);
 				updates.emplace_back(ny, nx);
 				visited[ny][nx] = true;
@@ -64,14 +64,16 @@ bool BFS(int r, int c)
 		}
 	}
 
-
-	int aver = total / updates.size();
-	for (auto& [y, x] : updates)
+	if (isOpened)
 	{
-		board[y][x] = aver;
+		int aver = total / updates.size();
+		for (auto& [y, x] : updates)
+		{
+			board[y][x] = aver;
+		}
 	}
 
-	return ret;
+	return isOpened;
 }
 int main()
 {
@@ -91,24 +93,29 @@ int main()
 	int cnt = 0;
 	while (true)
 	{
+		// 국경 개방 여부 검사
 		memset(visited, 0, sizeof(visited));
-		// 1. 국경 열기 작업 
-		bool isOpen = false;
+		bool isOpened = false;
 		for (int i = 0; i < N; ++i)
 		{
 			for (int j = 0; j < N; ++j)
 			{
-				if (!CanOpen(i, j)) // 열릴 가능 성이 없는지를 미리 체크하는 것만으로도 성능 향상이 매우 크다 496ms -> 72ms
+				if (visited[i][j] == true)
 					continue;
-				if (visited[i][j] == 0)
+
+				// 현재 국가가 개방 가능성이 있는지 사전 체크 (496ms -> 72ms)
+				if (!CanOpen(i, j)) 
 				{
-					// 1번이라도 open 되었는지
-					isOpen |= BFS(i, j);
+					visited[i][j] = true;
+					continue;
 				}
+
+				isOpened |= BFS(i, j);
 			}
 		}
 
-		if (false == isOpen)
+		// 이번 턴에 개방된 적이 없다면, 탈출
+		if (false == isOpened)
 		{
 			break;
 		}
