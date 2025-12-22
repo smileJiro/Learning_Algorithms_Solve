@@ -92,6 +92,13 @@ int main()
 	else
 	{
 		RenderBoard(E2);
+
+#pragma region RenderBoard(board) ¹Ý·Ê
+		// 3 3 5
+		//...
+		//OO.
+		//...
+#pragma endregion
 	}
 	
 	return 0;
