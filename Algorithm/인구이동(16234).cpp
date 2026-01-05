@@ -4,6 +4,10 @@ using P = pair<int, int>; // y, x
 
 int N, L, R;
 
+class nae
+{
+
+};
 int board[52][52];
 bool visited[52][52];
 int dy[] = { -1, 0, 1, 0 };
