@@ -8,9 +8,7 @@ using namespace std;
 * 3. answer = 탐색한 노드 개수;
 */
 
-int T;
-int N;
-void TopologySort(const vector<int>& graph, vector<int>& indegree)
+void TopologySort(const vector<int>& graph, vector<int>& indegree, int N)
 {
 	vector<int> result;
 	result.reserve(N);
@@ -44,10 +42,13 @@ int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
+
+	int T;
 	cin >> T;
 
 	while (T--)
 	{
+		int N;
 		cin >> N;
 		vector<int> graph(N + 1); // 진출차수 1개 고정 -> 인덱스: 노드 번호, 값: 이웃노드
 		vector<int> indegree(N + 1, 0);
@@ -58,7 +59,7 @@ int main()
 			++indegree[graph[i]];
 		}
 
-		TopologySort(graph, indegree);
+		TopologySort(graph, indegree, N);
 	}
 
 
