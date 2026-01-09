@@ -26,14 +26,12 @@ int main()
 	constexpr ll INF = (1LL << 62);
 	vector<vector<ll>> dp(N, vector<ll>(N, 0));
 
-	// len 구간 길이 (행렬 개수)
 	for (int len = 2; len <= N; ++len)
 	{
 		for (int i = 0; i + len - 1 < N; ++i)
 		{
 			int j = i + len - 1;
 			dp[i][j] = INF;
-
 
 			for (int k = i; k < j; ++k)
 			{
