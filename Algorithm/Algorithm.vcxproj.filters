@@ -765,6 +765,9 @@
     <ClCompile Include="나무자르기(BOJ2805).cpp">
       <Filter>1.study\Algorithm\이진탐색</Filter>
     </ClCompile>
+    <ClCompile Include="트리의지름_re.cpp">
+      <Filter>99.Retry</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
