@@ -12,6 +12,7 @@ using namespace std;
 // 3. brigde distance (W) -> truck len == 1
 
 
+// 이벤트 기반 시뮬레이션? -> 트럭 수만큼만 루프돌게 압축
 int N, W, L;
 int main()
 {
@@ -31,16 +32,16 @@ int main()
 
 	for (int i = 0; i < N; ++i)
 	{
-		int weightAvaildTime = 0;
+		int weightAvailableTime = 0;
 		while (currentWeight + truckList[i] > L) // 무게 제한
 		{
-			weightAvaildTime = outTime[frontTruckIndex];
+			weightAvailableTime = outTime[frontTruckIndex];
 			currentWeight -= truckList[frontTruckIndex++];
 		}
 
 		currentWeight += truckList[i];
 
-		int enterTime = max(lastEnterTime + 1, weightAvaildTime);
+		int enterTime = max(lastEnterTime + 1, weightAvailableTime);
 		outTime[i] = enterTime + W;
 		lastEnterTime = enterTime;
 	}
