@@ -768,6 +768,9 @@
     <ClCompile Include="트리의지름_re.cpp">
       <Filter>99.Retry</Filter>
     </ClCompile>
+    <ClCompile Include="트럭_re(13335).cpp">
+      <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
