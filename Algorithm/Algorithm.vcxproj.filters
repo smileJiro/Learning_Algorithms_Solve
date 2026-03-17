@@ -94,6 +94,9 @@
     <Filter Include="2.BOJ\97.Implementation\gold">
       <UniqueIdentifier>{e8af4124-b7c7-41b2-af25-02bcba5c87d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2.BOJ\96.dp">
+      <UniqueIdentifier>{d4eee950-a944-4dd7-82b1-bc51a3098a18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.BinarySearch.cpp">
@@ -770,6 +773,15 @@
     </ClCompile>
     <ClCompile Include="트럭_re(13335).cpp">
       <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
+    <ClCompile Include="주사위(1041).cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
+    <ClCompile Include="2xn타일링_re(11726).cpp">
+      <Filter>2.BOJ\96.dp</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB거리_re%281149%29.cpp">
+      <Filter>2.BOJ\96.dp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

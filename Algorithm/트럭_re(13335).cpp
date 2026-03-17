@@ -32,7 +32,7 @@ int main()
 
 	for (int i = 0; i < N; ++i)
 	{
-		int weightAvailableTime = 0;
+		int weightAvailableTime = 0; // 트럭 진입 가능 시간
 		while (currentWeight + truckList[i] > L) // 무게 제한
 		{
 			weightAvailableTime = outTime[frontTruckIndex];
@@ -43,7 +43,8 @@ int main()
 
 		int enterTime = max(lastEnterTime + 1, weightAvailableTime);
 		outTime[i] = enterTime + W;
-		lastEnterTime = enterTime;
+
+		lastEnterTime = enterTime; // 마지막 트럭 진입 시간
 	}
 
 	cout << outTime.back() << '\n';
