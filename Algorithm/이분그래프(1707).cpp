@@ -7,29 +7,29 @@ int V, E;
 enum COLOR { NONE, R, B };
 bool BFS(const vector<vector<int>>& graph, vector<COLOR>& colors, int start)
 {
-	using Node = pair<COLOR, int>; // 굳이 color 안넣어도 돼 그냥 q<int>로 하는게
-	queue<Node> q;
+
+	queue<int> q;
 
 	colors[start] = R;
-	q.emplace(colors[start], start);
+	q.push(start);
 
 	while (!q.empty())
 	{
-		auto [color, cur] = q.front(); q.pop();
+		int cur = q.front(); q.pop();
 
 		for (int adj : graph[cur])
 		{
 			// 1. 이웃 컬러 == 내 컬러 -> 모순 -> 이분 그래프 X 
 			if (NONE != colors[adj])
 			{
-				if (colors[adj] == color)
+				if (colors[adj] == colors[cur])
 					return false;
 				else
 					continue;
 			}
 
-			colors[adj] = (color == R ? B : R);
-			q.emplace(colors[adj], adj);
+			colors[adj] = (colors[cur] == R ? B : R);
+			q.push(adj);
 		}
 	}
 
