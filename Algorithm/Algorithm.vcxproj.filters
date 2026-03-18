@@ -795,6 +795,12 @@
     <ClCompile Include="안전영역(2468).cpp">
       <Filter>2.BOJ\94.Graph</Filter>
     </ClCompile>
+    <ClCompile Include="알고스팟%281261%29.cpp">
+      <Filter>2.BOJ\94.Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="이분그래프(1707).cpp">
+      <Filter>2.BOJ\94.Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">

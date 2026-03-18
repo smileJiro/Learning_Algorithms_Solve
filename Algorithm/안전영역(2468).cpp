@@ -13,7 +13,6 @@ bool OOB(int y, int x)
 }
 void BFS(int rainHeight, int startY, int startX) // visited check 
 {
-
 	queue<Pos> q;
 	q.emplace(startY, startX);
 	visited[startY][startX] = 1;
