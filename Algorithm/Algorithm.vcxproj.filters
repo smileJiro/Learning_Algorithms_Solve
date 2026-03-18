@@ -97,6 +97,12 @@
     <Filter Include="2.BOJ\96.dp">
       <UniqueIdentifier>{d4eee950-a944-4dd7-82b1-bc51a3098a18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2.BOJ\95.Greedy">
+      <UniqueIdentifier>{35d73957-1ac6-4b3e-a3c8-2e4af1a09a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.BOJ\94.Graph">
+      <UniqueIdentifier>{99fb5f96-426c-43fc-8cdc-af39c75eee0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.BinarySearch.cpp">
@@ -782,6 +788,12 @@
     </ClCompile>
     <ClCompile Include="RGB거리_re%281149%29.cpp">
       <Filter>2.BOJ\96.dp</Filter>
+    </ClCompile>
+    <ClCompile Include="카드정렬하기(1715).cpp">
+      <Filter>2.BOJ\95.Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="안전영역(2468).cpp">
+      <Filter>2.BOJ\94.Graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
