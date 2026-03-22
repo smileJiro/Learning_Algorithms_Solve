@@ -1,0 +1,1 @@
+{"name":"Local: 나무자르기_re3(2805)","url":"d:\\Works\\Algorithm\\Algorithm\\나무자르기_re3(2805).cpp","tests":[{"id":1773891878631,"input":"4 7\n20 15 10 17","output":"15"},{"id":1773891889497,"input":"5 20\n4 42 40 26 46","output":"36"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Works\\Algorithm\\Algorithm\\나무자르기_re3(2805).cpp","group":"local","local":true}

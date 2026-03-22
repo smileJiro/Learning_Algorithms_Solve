@@ -2,16 +2,16 @@
 using namespace std;
 
 
-#pragma region ´ÙÀÍ½ºÆ®¶ó Ç®ÀÌ
-// ´ÙÀÍ½ºÆ®¶ó·Î Çª´Âµ¥ °£¼± °¡ÁßÄ¡°¡ 0ÀÎÁö 1ÀÎÁö ÀÎ°ÅÀÓ 
-// °£¼± °¡ÁßÄ¡°¡ 0ÀÎ °£¼±°ú 1ÀÎ °£¼±¸¸ Á¸ÀçÇÏ´Â °Í °á±¹ °£¼± °¡ÁßÄ¡°¡ ³·Àº°Ô -> º®À» °¡Àå ¾ÈºÎ¼ø °æ¿ìÀÓ 
+#pragma region ï¿½ï¿½ï¿½Í½ï¿½Æ®ï¿½ï¿½ Ç®ï¿½ï¿½
+// ï¿½ï¿½ï¿½Í½ï¿½Æ®ï¿½ï¿½ï¿? Çªï¿½Âµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ï¿½ï¿½ 
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ 0ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ ï¿½á±¹ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ÈºÎ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿? 
 //constexpr int INF = 1e9;
 //int dy[] = { -1, 0, 1, 0 };
 //int dx[] = { 0, 1, 0, -1 };
 //
 //int N, M; // 1 ~ 100
 //int board[101][101];
-//int dist[101][101]; // ½ÃÀÛ ³ëµå -> °¢ ³ëµå ±îÁöÀÇ ÃÖ´Ü °Å¸® 
+//int dist[101][101]; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿? -> ï¿½ï¿½ ï¿½ï¿½ï¿? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Å¸ï¿½ 
 //using Node = tuple<int, int, int>; // cost, y, x
 //bool OOB(int y, int x)
 //{
@@ -28,10 +28,10 @@ using namespace std;
 //	while (!pq.empty())
 //	{
 //		auto [c, y, x] = pq.top(); pq.pop();
-//		if (c > dist[y][x]) // ÀÌ¹Ì ÃÖ´Ü °æ·Î°¡ °»½ÅµÈ ³ëµå
+//		if (c > dist[y][x]) // ï¿½Ì¹ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½Î°ï¿? ï¿½ï¿½ï¿½Åµï¿½ ï¿½ï¿½ï¿?
 //			continue;
 //
-//		if (y == N - 1 && x == M - 1) // Å»Ãâ Á¶°Ç
+//		if (y == N - 1 && x == M - 1) // Å»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		{
 //			cout << c << '\n';
 //			return;
@@ -44,7 +44,7 @@ using namespace std;
 //			if (OOB(ny, nx))
 //				continue;
 //
-//			int edgeWeight = board[ny][nx]; // ³ëµåÀÇ °ª ÀÚÃ¼°¡ °£¼± °¡ÁßÄ¡
+//			int edgeWeight = board[ny][nx]; // ï¿½ï¿½ï¿½ï¿½ï¿? ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡
 //			if (dist[ny][nx] > dist[y][x] + edgeWeight)
 //			{
 //				dist[ny][nx] = dist[y][x] + edgeWeight;
@@ -77,9 +77,9 @@ using namespace std;
 #pragma endregion
 
 
-#pragma region 0-1 BFS Ç®ÀÌ
-// deque »ç¿ë
-// °¡ÁßÄ¡°¡ 0ÀÌ¸é push_front, 1ÀÌ¸é push_back
+#pragma region 0-1 BFS Ç®ï¿½ï¿½
+// deque ï¿½ï¿½ï¿?
+// ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ 0ï¿½Ì¸ï¿½ push_front, 1ï¿½Ì¸ï¿½ push_back
 using Pos = pair<int, int>; // y, x
 constexpr int INF = 1e9;
 constexpr int MAX = 100;
@@ -122,7 +122,7 @@ void ZeroOneBFS(int startY, int startX)
             dist[ny][nx] = dist[y][x] + edgeWeight;
 
 
-            // 0-1 BFS ÇÙ½É °¡ÁßÄ¡°¡ 0 ÀÌ¸é front, 1ÀÌ¸é back
+            // 0-1 BFS ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ 0 ï¿½Ì¸ï¿½ front, 1ï¿½Ì¸ï¿½ back
             if (edgeWeight == 0)
                 dq.emplace_front(ny, nx);
             else
