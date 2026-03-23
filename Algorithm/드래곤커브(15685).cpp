@@ -67,7 +67,7 @@ int main()
 			if (board[i][j] && board[i][j + 1] && board[i + 1][j] && board[i + 1][j + 1])
 				++answer;
 		}
-	}
+	} 
 	cout << answer << '\n';
 
 	return 0;
