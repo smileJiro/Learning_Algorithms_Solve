@@ -805,6 +805,9 @@
     <ClCompile Include="평범한배낭_re2(12865).cpp">
       <Filter>2.BOJ\96.dp</Filter>
     </ClCompile>
+    <ClCompile Include="가장긴바이토닉부분수열(11054).cpp">
+      <Filter>2.BOJ\96.dp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
