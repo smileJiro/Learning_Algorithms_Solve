@@ -801,6 +801,10 @@
     <ClCompile Include="이분그래프(1707).cpp">
       <Filter>2.BOJ\94.Graph</Filter>
     </ClCompile>
+    <ClCompile Include="드래곤커브(15685).cpp" />
+    <ClCompile Include="평범한배낭_re2(12865).cpp">
+      <Filter>2.BOJ\96.dp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
