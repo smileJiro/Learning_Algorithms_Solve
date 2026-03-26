@@ -811,6 +811,12 @@
     <ClCompile Include="빙산%282573%29.cpp">
       <Filter>2.BOJ\94.Graph</Filter>
     </ClCompile>
+    <ClCompile Include="불!%284179%29.cpp">
+      <Filter>2.BOJ\94.Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기10(2447).cpp">
+      <Filter>2.BOJ\96.Etc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
