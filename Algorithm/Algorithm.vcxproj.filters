@@ -817,6 +817,9 @@
     <ClCompile Include="별찍기10(2447).cpp">
       <Filter>2.BOJ\96.Etc</Filter>
     </ClCompile>
+    <ClCompile Include="계단(21600).cpp">
+      <Filter>2.BOJ\96.dp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
