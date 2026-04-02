@@ -820,6 +820,12 @@
     <ClCompile Include="계단(21600).cpp">
       <Filter>2.BOJ\96.dp</Filter>
     </ClCompile>
+    <ClCompile Include="동전2(2294).cpp">
+      <Filter>2.BOJ\95.Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="암호만들기.cpp">
+      <Filter>2.BOJ\96.Etc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
