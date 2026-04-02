@@ -103,6 +103,9 @@
     <Filter Include="2.BOJ\94.Graph">
       <UniqueIdentifier>{99fb5f96-426c-43fc-8cdc-af39c75eee0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2.BOJ\93.BinarySearch">
+      <UniqueIdentifier>{3b4df601-cb1d-4679-af52-be405e09d9ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.BinarySearch.cpp">
@@ -825,6 +828,9 @@
     </ClCompile>
     <ClCompile Include="암호만들기.cpp">
       <Filter>2.BOJ\96.Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="용액_re(2467).cpp">
+      <Filter>2.BOJ\93.BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
