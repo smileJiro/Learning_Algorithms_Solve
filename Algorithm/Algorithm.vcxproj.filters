@@ -832,6 +832,9 @@
     <ClCompile Include="용액_re(2467).cpp">
       <Filter>2.BOJ\93.BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="미세먼지안녕!.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
