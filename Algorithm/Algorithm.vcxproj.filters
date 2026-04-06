@@ -835,6 +835,9 @@
     <ClCompile Include="미세먼지안녕!.cpp">
       <Filter>2.BOJ\97.Implementation\gold</Filter>
     </ClCompile>
+    <ClCompile Include="수묶기%281744%29.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
